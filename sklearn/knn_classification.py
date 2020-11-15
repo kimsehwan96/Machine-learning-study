@@ -17,7 +17,7 @@ train_inpiut, test_input, train_label, test_label = train_test_split(
 # 전체 데이터의 25%로 설정하여 이 비율로 데이터를 나눔
 
 from sklearn.neighbors import KNeighborsClassifier
-# 나이브베이지 추론
+# KNN 추론 -> k 최근접 이웃
 knn = KNeighborsClassifier(n_neighbors=1)
 # knn 객체 생성, 하이퍼 파라미터로k 값.
 
